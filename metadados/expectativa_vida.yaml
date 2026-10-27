@@ -1,0 +1,18 @@
+id: expectativa_vida
+titulo: Expectativa de vida ao nascer
+unidade: anos
+niveis: [BR, UF]
+
+fontes:
+  - id: ibge_projecoes_2024
+    orgao: IBGE
+    nome: "Projeções da População: Brasil e Unidades da Federação - Revisão 2024"
+    pagina: https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/
+    url_arquivo: https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/projecoes_2024_tab4_indicadores.xlsx
+    arquivo: projecoes_2024_tab4_indicadores.xlsx
+    documentacao: https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/Serie_Relatorios_Metotodologicos_v40_Projecoes_da_Populacao_Brasil_e_Unidades_da_Federacao_Revisao_2024_3a_Edicao.pdf
+
+# Preencher após confirmar no relatório metodológico:
+# - último ano tratado como estimativa (antes disso) x projeção (depois);
+# - se haverá série histórica anterior a 2000 e de qual fonte.
+quebras: []
